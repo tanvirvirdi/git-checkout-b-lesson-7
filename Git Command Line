@@ -1,3 +1,6 @@
 git add lesson7.html
 git commit -m "Added lesson7.html file"
 git push -u origin lesson7
+git checkout main
+git branch -d lesson7
+git push origin --delete lesson7
